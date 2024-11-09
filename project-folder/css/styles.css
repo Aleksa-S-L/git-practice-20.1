@@ -1,0 +1,191 @@
+/*general style*/
+body {
+  background: #f6f6fa;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.name-hillel {
+  color: #2979ff;
+}
+.my-info {
+  color: purple;
+  margin-bottom: 40px;
+}
+.my-profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+.my-name {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 55px;
+  color: rgb(5, 5, 53);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.my-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.Main-content {
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*Style for headings and text*/
+.my_soft_skills {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: normal;
+  color: #161d2a;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+/* Skills-container */
+.skills-container {
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+.skills-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skills-list {
+  padding-left: 16px;
+}
+.skills-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8e1c73;
+}
+.favorit {
+  color: #333;
+  font-size: 28px;
+  text-align: center;
+  padding-left: 0; /* Убирает отступ у списка */
+  margin-left: 0;
+  font-size: 14px;
+}
+.favorit li {
+  text-align: left; /* Выровнять текст по левому краю */
+}
+
+.tabl {
+  position: relative;
+  top: 700px; /* Смещение вниз */
+  left: 150px; /* Смещение правее от сайдбара */
+
+  padding: 20px;
+  width: 500px;
+  color: #000;
+}
+.sidebar-top {
+  width: 200px;
+  height: 100vh;
+  float: left;
+}
+.Sidebar {
+  align-self: flex-start; /* Привязывает к верхней части */
+  top: 0;
+  left: 0;
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  width: 370px;
+}
+
+.contacts-title {
+  line-height: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.Sidebar-content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+.contacts-container {
+  margin-bottom: 40px;
+}
+.contacts-link {
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.Button {
+  display: inline-block; /* Делаем ссылку блочным элементом, чтобы можно было задать размеры */
+  padding: 10px 20px; /* Отступы внутри кнопки (сверху и снизу 10px, слева и справа 20px) */
+  background-color: #0fd719; /* Цвет фона кнопки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Центрируем текст внутри кнопки */
+  text-decoration: none; /* Убираем подчеркивание, которое по умолчанию у ссылок */
+  border-radius: 5px; /* Скругляем углы кнопки */
+  font-size: 16px; /* Размер текста */
+  transition: background-color 0.3s ease; /* Плавное изменение фона при наведении */
+}
+
+.Button:hover {
+  background-color: #c91b52; /* Изменение фона при наведении */
+}
+
+.bottom-iframe {
+  width: 100%; /* Задает всю ширину экрана */
+  height: 300px; /* Задайте высоту по вашему усмотрению */
+  border: none; /* Убирает рамки iframe */
+}
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  background-color: rgb(247, 117, 218);
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+a:active {
+  background-color: red;
+}
