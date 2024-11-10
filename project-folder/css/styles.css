@@ -94,8 +94,10 @@ body {
   margin-left: 0;
   font-size: 14px;
 }
-.favorit li {
+.favorites {
   text-align: left; /* Выровнять текст по левому краю */
+  color: #000;
+  padding-bottom: 0;
 }
 
 .tabl {
@@ -116,7 +118,7 @@ body {
   align-self: flex-start; /* Привязывает к верхней части */
   top: 0;
   left: 0;
-  background: #e0ebfe;
+  background: #7a9edd;
   padding-top: 40px;
   padding-bottom: 40px;
 
@@ -154,23 +156,18 @@ body {
   line-height: 24px;
   text-decoration-line: underline;
 }
-.Button {
+.signUP {
   display: inline-block; /* Делаем ссылку блочным элементом, чтобы можно было задать размеры */
   padding: 10px 20px; /* Отступы внутри кнопки (сверху и снизу 10px, слева и справа 20px) */
   background-color: #0fd719; /* Цвет фона кнопки */
   color: white; /* Цвет текста */
   text-align: center; /* Центрируем текст внутри кнопки */
   text-decoration: none; /* Убираем подчеркивание, которое по умолчанию у ссылок */
-  border-radius: 5px; /* Скругляем углы кнопки */
+  border-radius: 12px; /* Скругляем углы кнопки */
   font-size: 16px; /* Размер текста */
   transition: background-color 0.3s ease; /* Плавное изменение фона при наведении */
 }
-
-.Button:hover {
-  background-color: #c91b52; /* Изменение фона при наведении */
-}
-
-.bottom-iframe {
+.signUP-iframe {
   width: 100%; /* Задает всю ширину экрана */
   height: 300px; /* Задайте высоту по вашему усмотрению */
   border: none; /* Убирает рамки iframe */
@@ -188,4 +185,7 @@ a:hover {
 }
 a:active {
   background-color: red;
+}
+.signUP:hover {
+  background-color: #c91b52; /* Изменение фона при наведении */
 }
